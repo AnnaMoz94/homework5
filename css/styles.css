@@ -1,0 +1,72 @@
+@import url(reset.css);
+
+.container {
+    background: rgb(235, 232, 232);
+    text-align: justify;
+    line-height: 26px;
+    font-family: "Montserrat", sans-serif;
+    border: 40px solid rgb(168, 156, 147);
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+padding: 16px;
+}
+
+.my-hobby {
+margin: 16px 0 100px 0;
+}
+
+h1, h2 {
+font-size: 28px;
+text-align: center;
+margin: 12px 0;
+font-weight: 600;
+}
+
+p {
+    color: rgb(99, 57, 15);
+}
+
+span {
+color: brown;
+font-weight: 600;
+border-bottom: 1px solid;
+}
+
+.foto {
+    float: left;
+    margin-right: 12px;
+}
+
+.info-my-hobby {
+    margin-bottom: 16px;
+}
+
+#h1, h2 {
+    font-size: 20px;
+}
+
+.list > li + li {
+    margin-top: 12px;
+}
+
+h3 {
+    color: brown;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+h4 {
+    margin: 12px 0;
+    font-size: 14px;
+    text-align: end;
+}
+
+.link {
+    color: sienna;
+}
+
